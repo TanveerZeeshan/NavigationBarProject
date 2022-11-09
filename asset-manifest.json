@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/NavigationBarProject/static/css/main.05b5152f.css",
-    "main.js": "/NavigationBarProject/static/js/main.2cfa872c.js",
-    "static/js/787.d1658dbb.chunk.js": "/NavigationBarProject/static/js/787.d1658dbb.chunk.js",
-    "index.html": "/NavigationBarProject/index.html",
-    "main.05b5152f.css.map": "/NavigationBarProject/static/css/main.05b5152f.css.map",
-    "main.2cfa872c.js.map": "/NavigationBarProject/static/js/main.2cfa872c.js.map",
-    "787.d1658dbb.chunk.js.map": "/NavigationBarProject/static/js/787.d1658dbb.chunk.js.map"
+    "main.css": "/ProjectNav/static/css/main.05b5152f.css",
+    "main.js": "/ProjectNav/static/js/main.14116b7e.js",
+    "static/js/787.d1658dbb.chunk.js": "/ProjectNav/static/js/787.d1658dbb.chunk.js",
+    "index.html": "/ProjectNav/index.html",
+    "main.05b5152f.css.map": "/ProjectNav/static/css/main.05b5152f.css.map",
+    "main.14116b7e.js.map": "/ProjectNav/static/js/main.14116b7e.js.map",
+    "787.d1658dbb.chunk.js.map": "/ProjectNav/static/js/787.d1658dbb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05b5152f.css",
-    "static/js/main.2cfa872c.js"
+    "static/js/main.14116b7e.js"
   ]
 }
