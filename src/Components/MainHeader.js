@@ -6,7 +6,6 @@ const MainHeader = () => {
   const navStyle = (navData) => {
     return navData.isActive ? classes.active : "";
   };
-
   return (
     <header className={classes.header}>
       <nav>
@@ -16,6 +15,7 @@ const MainHeader = () => {
               Home
             </NavLink>
           </li>
+
           <li>
             <NavLink to="about" className={navStyle}>
               About

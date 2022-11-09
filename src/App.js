@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "./Pages/Home";
 import "./App.css";
 import About from "./Pages/About";
@@ -19,8 +19,9 @@ function App() {
       
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/ProjectNav" element={<Home/>}></Route>
+          <Route path="/home" element={<Home/>}></Route>
+      
           <Route path="/about" element={<About />} />
           <Route path="/help" element={<Help />}>
             <Route path="location" element={<LocationComp />}/>
@@ -29,7 +30,7 @@ function App() {
           <Route path="ourlocation" element={<Ourlocations/>}/>
           <Route path="/ourlocation/:name" element={<LocationDetail/>}/>
 
-          <Route path="/*" element={<PageNotFound />} />
+          <Route path="/*" element={<PageNotFound/>} />
         </Routes>
       </main>
     </div>
